@@ -22,7 +22,7 @@ body{
     border-radius: 12px;
     padding: 28px;
 }
-.search-box{
+.search_box{
     width: 100%;
     height: min-content;
     display: flex;
@@ -30,7 +30,7 @@ body{
     align-items: center;
 }
 
-.search-box input{
+.search_box input{
     width: 84%;
     font-size: 20px;
     text-transform: capitalize;
@@ -40,12 +40,12 @@ body{
     border-radius: 14px;
 }
 
-.search-box input::placeholder
+.search_box input::placeholder
 {
     color: #000;
 }
 
-.search-box button
+.search_box button
 {
     width: 46px;
     height: 46px;
@@ -55,12 +55,12 @@ body{
     font-size: 20px;
 }
 
-.search-box button:hover{
+.search_box button:hover{
     color: #fff;
     background-color: #ababab;
 }
 
-.weather-body{
+.weather_body{   
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -68,34 +68,34 @@ body{
     display: none;
 }
 
-.weather-body img{
+.weather_body img{
     width: 60%;
 }
 
-.weather-box{
+.weather_box{
     margin-block: 20px;  
     text-align: center;
 }
 
-.weather-box .temperature{
+.weather_box .temperature{
     font-size: 40px; 
     font-weight: 800;
     position: relative;
 }
 
-.weather-box .temperature sup{
+.weather_box .temperature sup{
     font-size: 20px;
     position: absolute;
     font-weight: 600;
 }
 
-.weather-box description{
+.weather_box description{
     font-size: 20px;
     font-weight: 700; 
     text-transform: capitalize;  
 }
 
-.weather-details
+.weather_details
 {
     width: 100%;
     display: flex;
@@ -116,11 +116,11 @@ body{
     margin-right: 20px;
 }
 
-.weather-details i{
+.weather_details i{
     font-size: 36px;
 }
 
-.weather-details .text{
+.weather_details .text{
     margin-left: 10px; 
     font-size: 16px;
 }
@@ -129,7 +129,7 @@ body{
     font-weight: 700;
 } 
 
-.location_not-found 
+.location_not_found 
 {
     margin-top: 20px; 
     display: none;
@@ -138,14 +138,14 @@ body{
     flex-direction: column;
 } 
 
-.location_not-found h1{
+.location_not_found h1{
     font-size: 20px; 
     color: #6b6b6b; 
     margin-block-end: 15px;
 }
 
 
-.location_not-found img
+.location_not_found img
 {
     width: 80%;
 }
